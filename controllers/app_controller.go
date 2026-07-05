@@ -17,7 +17,7 @@ type AppController struct{}
 
 // Hello — GET / (publik).
 func (ctrl *AppController) Hello(c *gin.Context) {
-	utils.Success(c, http.StatusOK, "Success", "Hello World!")
+	utils.Success(c, http.StatusOK, "Success", "Hello, Hackathon Management App! v.05.07.01")
 }
 
 // Me — GET /me (butuh login). Mengembalikan user yang sedang login,
