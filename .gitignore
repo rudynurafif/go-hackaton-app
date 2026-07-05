@@ -1,0 +1,7 @@
+# Rahasia environment — jangan pernah di-commit
+.env
+
+# Binary hasil build
+*.exe
+/bin/
+/tmp/
